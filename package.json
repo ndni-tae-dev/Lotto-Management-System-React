@@ -1,12 +1,13 @@
 {
   "name": "lotto-management-system-react",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
